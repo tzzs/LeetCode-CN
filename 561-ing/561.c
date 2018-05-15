@@ -28,6 +28,7 @@ void kspx(int *nums, int begin, int end)
 
         while (i < j)
         {
+            int temp;
             while (nums[j] >= x && j > i)
             {
                 j--;
@@ -35,7 +36,9 @@ void kspx(int *nums, int begin, int end)
 
             if (i < j)
             {
+                temp = nums[i];
                 nums[i] = nums[j];
+                nums[j] = temp;
                 i++;
             }
 
@@ -46,7 +49,9 @@ void kspx(int *nums, int begin, int end)
 
             if (i < j)
             {
+                temp = nums[j];
                 nums[j] = nums[i];
+                nums[i] = temp;
                 j--;
             }
             nums[i] = x;
