@@ -1,3 +1,0 @@
-/cygdrive/e/Workspaces/CLionProjects/LeetCode/397/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/e/Workspaces/CLionProjects/LeetCode/397/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/e/Workspaces/CLionProjects/LeetCode/397/cmake-build-debug/CMakeFiles/397.dir
