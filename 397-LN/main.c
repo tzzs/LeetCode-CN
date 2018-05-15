@@ -15,20 +15,20 @@ int replace(long n)
 {
     if (n == 1)
     {
-        return n;
+        return 1;
     }
     else
     {
         time++;
         if (n % 2 == 0)
         {
-            n = n / 2;
-            return integerReplacement(n);
+            printf("%d ", n / 2);
+            return integerReplacement(n / 2);
         }
         else
         {
-            n = n - 1;
-            return integerReplacement(n);
+            printf("%d ", n - 1);
+            return integerReplacement(n - 1);
         }
     }
 }
@@ -37,6 +37,6 @@ int main()
 {
     int t = 7;
     integerReplacement(t);
-    printf("%d", time);
+    printf("\n%d", time);
     return 0;
 }
