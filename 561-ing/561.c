@@ -1,79 +1,38 @@
 #include <stdio.h>
 
-//冒泡排序
-void sort(int *nums, int numsSize)
-{
-    for (int i = 0; i < numsSize; i++)
-    {
-        for (int j = 0; j < numsSize - i - 1; j++)
-        {
-            if (nums[j] > nums[j + 1])
-            {
-                int temp = nums[j + 1];
-                nums[j + 1] = nums[j];
-                nums[j] = temp;
-            }
-        }
-    }
-}
 //快速排序
-void kspx(int *nums, int begin, int end)
+void kspx(int *a, int left, int right)
 {
-    int i, j, x;
-    if (begin < end)
+    if (left >= right) /*如果左边索引大于或者等于右边的索引就代表已经整理完成一个组了*/
     {
-        i = begin;
-        j = end;
-        x = nums[begin];
-
-        while (i < j)
-        {
-            int temp;
-            while (nums[j] >= x && j > i)
-            {
-                j--;
-            }
-
-            if (i < j)
-            {
-                temp = nums[i];
-                nums[i] = nums[j];
-                nums[j] = temp;
-                i++;
-            }
-
-            while (nums[i] <= x && i < j)
-            {
-                i++;
-            }
-
-            if (i < j)
-            {
-                temp = nums[j];
-                nums[j] = nums[i];
-                nums[i] = temp;
-                j--;
-            }
-            nums[i] = x;
-            kspx(nums, begin, j - 1);
-            kspx(nums, j + 1, end);
-        }
+        return;
     }
+    int i = left;
+    int j = right;
+    int key = a[left];
+
+    while (i < j)
+    {
+        while (i < j && key <= a[j])
+        {
+            j--;
+        }
+        a[i] = a[j];
+
+        while (i < j && key >= a[i])
+        {
+            i++;
+        }
+        a[j] = a[i];
+    }
+    a[i] = key;
+    kspx(a, left, i - 1);
+    kspx(a, i + 1, right);
 }
+
 int arrayPairSum(int *nums, int numsSize)
 {
-    for (int i = 0; i < numsSize; i++)
-    {
-        printf("%d ", nums[i]);
-    }
-    printf("\n");
-    // sort(nums, numsSize);
-    kspx(nums, 0, numsSize);
-
-    for (int i = 0; i < numsSize; i++)
-    {
-        printf("%d ", nums[i]);
-    }
+    kspx(nums, 0, numsSize - 1);
 
     int num = 0;
     for (int i = 0; i < numsSize; i++)
