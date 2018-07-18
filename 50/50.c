@@ -2,36 +2,63 @@
 #include <math.h>
 double myPow(double x, int n)
 {
-    if (n == 0)
+    double result = 1, a = x;
+    int max = (unsigned)(-1) >> 1;
+    int min = ~max;
+    if (x == 0)
+    {
+        return 0;
+    }
+
+    if (x == 1 || n == 0)
+    {
+        return 1;
+    }
+
+    if (n == min)
+    {
+        return 0;
+    }
+    if (n > 1)
+    {
+        while (n > 1)
+        {
+            if (n % 2 != 0)
+            {
+                result *= a;
+            }
+            a *= a;
+            n /= 2;
+        }
+        return a * result;
+    }
+    else if (n == 1)
+    {
+        return x;
+    }
+    else if (n == 0)
     {
         return 1;
     }
     else
     {
-        if (n > 0)
+        int an = -n;
+        while (an > 1)
         {
-            double k = 1;
-            for (int i = 0; i < n; i++)
+            if (an % 2 == 1)
             {
-                k *= x;
+                result *= a;
             }
-            return k;
+            a *= a;
+            an /= 2;
         }
-        else
-        {
-            double k = 1;
-            for (int i = 0; i < -n; i++)
-            {
-                k *= x;
-            }
-            return 1 / k;
-        }
+        return 1 / (a * result);
     }
 }
 
 int main(int argc, char const *argv[])
 {
-    double r = myPow(2, -2);
+    double r = myPow(2, -2147483648);
     printf("%f", r);
     return 0;
 }
