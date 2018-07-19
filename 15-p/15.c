@@ -25,9 +25,7 @@ void sort(int *nums, int numsSize)
  */
 int **threeSum(int *nums, int numsSize, int *returnSize)
 {
-
     int **Sum = (int **)malloc(sizeof(int *) * (numsSize * (numsSize - 1) * (numsSize - 2)) / 6);
-    int *s = (int *)malloc(sizeof(int) * 3);
 
     if (numsSize < 3)
     {
@@ -38,19 +36,20 @@ int **threeSum(int *nums, int numsSize, int *returnSize)
 
     int j, k, top = 0;
 
+    //排序输出测试
     for (int i = 0; i < numsSize; i++)
     {
-        printf("%d %d\n ", i, nums[i]);
+         printf("%d %d\n ", i, nums[i]);
     }
 
     for (int i = 0; i < numsSize - 2; i++)
     {
-        if (nums[i - 1] == nums[i])
+        if (i > 0 && nums[i - 1] == nums[i])
         {
             continue;
         }
-        int j = i + 1;
-        int k = numsSize - 1;
+        j = i + 1;
+        k = numsSize - 1;
 
         while (j < k)
         {
@@ -75,12 +74,14 @@ int **threeSum(int *nums, int numsSize, int *returnSize)
             }
             else
             {
+                Sum[top] = (int *)malloc(sizeof(int)*3);
                 Sum[top][0] = nums[i];
                 Sum[top][1] = nums[j];
                 Sum[top][2] = nums[k];
                 top++;
                 //处理重复
-
+                j++;
+                k--;
                 while (nums[j] == nums[j - 1] && j < k)
                 {
                     j++;
@@ -94,14 +95,20 @@ int **threeSum(int *nums, int numsSize, int *returnSize)
         }
     }
     *returnSize = top;
-    printf("%d", returnSize[0]);
     return Sum;
 }
 
 int main(int argc, char const *argv[])
 {
     int nums[] = {-1, 0, 1, 2, -1, -4};
-    int *returnSize;
-    threeSum(nums, 6, 5);
+    int *returnSize = (int *)malloc(sizeof(int));
+    int **res = threeSum(nums, 6, returnSize);
+    printf("{");
+    for (int i = 0; i < *returnSize; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            printf("%d ",res[i][j]);
+        }
+        printf("\n")
+    }
     return 0;
 }
