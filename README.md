@@ -5,7 +5,21 @@
   - [ALL](#all)
   - [CARD](#card)
     - [ByteDance](#bytedance)
+      - [String](#string)
+      - [Linked List And Tree](#linked-list-and-tree)
+      - [Dynamic Programming Or Greedy](#dynamic-programming-or-greedy)
+      - [Data Structure](#data-structure)
+      - [Bonus](#bonus)
     - [Top InterView Question Easy](#top-interview-question-easy)
+      - [Array](#array)
+      - [Strings](#strings)
+      - [Linked List](#linked-list)
+      - [Trees](#trees)
+      - [Sorting And Searching](#sorting-and-searching)
+      - [Dynamic Programming](#dynamic-programming)
+      - [Design](#design)
+      - [Math](#math)
+      - [Others](#others)
     - [Top InterView Question Medium](#top-interview-question-medium)
     - [Top InterView Question Hard](#top-interview-question-hard)
 
@@ -22,6 +36,20 @@
 
 ## CARD
 ### ByteDance
+#### String
+#### Linked List And Tree
+#### Dynamic Programming Or Greedy
+#### Data Structure
+#### Bonus
 ### Top InterView Question Easy
+#### Array
+#### Strings
+#### Linked List
+#### Trees
+#### Sorting And Searching
+#### Dynamic Programming
+#### Design
+#### Math
+#### Others
 ### Top InterView Question Medium
 ### Top InterView Question Hard
