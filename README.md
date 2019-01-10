@@ -11,7 +11,7 @@
 
 ## ALL
 | #   | 题名                                                | 通过率                                                                   | 难度  |
-| --- | --------------------------------------------------- | ------------------------------------------------------------------------ | ----- | ---- |
+| --- | --- | --- | --- | --- |
 | 1   | [两数之和](../../tree/master/ALL/2.add-two-numbers) | [Two Sum](../../tree/master/ALL/2.add-two-numbers)                       | 43.2% | 简单 |
 | 2   | [两数相加](../../tree/master/ALL/)                  | [Add Two Numbers](../../tree/master/ALL/)                                | 31.2% | 中等 |
 | 3   | [无重复字符的最长子串](../../tree/master/ALL/)      | [Longest Substring Without Repeating Characters](../../tree/master/ALL/) |
