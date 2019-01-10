@@ -10,17 +10,15 @@
     - [Top InterView Question Hard](#top-interview-question-hard)
 
 ## ALL
-| #   | 题名                                                | 通过率                                                                   | 难度  |
-| --- | --------------------------------------------------- | ------------------------------------------------------------------------ | ----- | ---- |
-| 1   | [两数之和](../../tree/master/ALL/2.add-two-numbers) | [Two Sum](../../tree/master/ALL/2.add-two-numbers)                       | 43.2% | 简单 |
-| 2   | [两数相加](../../tree/master/ALL/)                  | [Add Two Numbers](../../tree/master/ALL/)                                | 31.2% | 中等 |
-| 3   | [无重复字符的最长子串](../../tree/master/ALL/)      | [Longest Substring Without Repeating Characters](../../tree/master/ALL/) |
-| 7   | [整数反转](../../tree/master/ALL/7.reverse-integer) | [](../../tree/master/ALL/7.reverse-integer)                              |
-| 8   | [字符串转换整数(atoi)](../../tree/master/ALL/)      | [Reverse Integer](../../tree/master/ALL/)                                |
-| 9   | [回文数](../../tree/master/ALL/)                    | [Palindrome Number](../../tree/master/ALL/)                              |
-| 7   | [](../../tree/master/ALL/)                          | [](../../tree/master/ALL/)                                               |
-| 8   | [](../../tree/master/ALL/)                          | []()                                                                     |
-| 9   | [](../../tree/master/ALL/)                          | []()                                                                     |
+| #   | 题名                                                | Name                                                                     | 通过率 | 难度 |
+| --- | --------------------------------------------------- | ------------------------------------------------------------------------ | ------ | ---- |
+| 1   | [两数之和](../../tree/master/ALL/2.add-two-numbers) | [Two Sum](../../tree/master/ALL/2.add-two-numbers)                       | 43.2%  | 简单 |
+| 2   | [两数相加](../../tree/master/ALL/)                  | [Add Two Numbers](../../tree/master/ALL/)                                | 31.2%  | 中等 |
+| 3   | [无重复字符的最长子串](../../tree/master/ALL/)      | [Longest Substring Without Repeating Characters](../../tree/master/ALL/) | 26.8%  | 中等 |
+| 7   | [整数反转](../../tree/master/ALL/7.reverse-integer) | [Reverse Integer](../../tree/master/ALL/7.reverse-integer)               | 30.5%  | 简单 |
+| 8   | [字符串转换整数(atoi)](../../tree/master/ALL/)      | [Reverse Integer](../../tree/master/ALL/)                                | 16.0%  | 中等 |
+| 9   | [回文数](../../tree/master/ALL/)                    | [Palindrome Number](../../tree/master/ALL/)                              | 54.7%  | 简单 |
+| 7   | [](../../tree/master/ALL/)                          | [](../../tree/master/ALL/)                                               | null   | null |
 
 ## CARD
 ### ByteDance
