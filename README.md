@@ -4,6 +4,7 @@
 - [LeetCode](#leetcode)
   - [ALL](#all)
   - [CARD](#card)
+    - [Top Interview Quesitons In 2018](#top-interview-quesitons-in-2018)
     - [ByteDance](#bytedance)
       - [String](#string)
       - [Linked List And Tree](#linked-list-and-tree)
@@ -35,6 +36,16 @@
 | 7   | [](../../tree/master/ALL/)                          | [](../../tree/master/ALL/)                                               | null   | null |
 
 ## CARD
+
+### Top Interview Quesitons In 2018
+| #        | 题名             | NAME                  |
+| -------- | ---------------- | --------------------- |
+| 开始之前 |                  |                       |
+| 1        | 只出现一次的数字 | Single Number         |
+| 2        | 求众数           | Majorty Element       |
+| 3        | 搜索二位矩阵 II  | Search A 2d Matrix II |
+| 4        | 合并两个有序数组 | Merge Sorted Array    |
+| 5        | 鸡蛋掉落         | Super Egg Drop        |
 ### ByteDance
 #### String
 #### Linked List And Tree
