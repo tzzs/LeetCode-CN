@@ -38,14 +38,14 @@
 ## CARD
 
 ### Top Interview Quesitons In 2018
-| #        | 题名             | NAME                  |
-| -------- | ---------------- | --------------------- |
-| 开始之前 |                  |                       |
-| 1        | 只出现一次的数字 | Single Number         |
-| 2        | 求众数           | Majorty Element       |
-| 3        | 搜索二位矩阵 II  | Search A 2d Matrix II |
-| 4        | 合并两个有序数组 | Merge Sorted Array    |
-| 5        | 鸡蛋掉落         | Super Egg Drop        |
+| #                | 题名                                                                                                                            | NAME                                                                                                                                 |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Before You Start |                                                                                                                                 |                                                                                                                                      |
+| 1                | [只出现一次的数字](../../tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1106)                            | [Single Number](../../tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1106)                                    |
+| 2                | [求众数](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1107)           | [Majorty Element](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1107)       |
+| 3                | [搜索二位矩阵 II](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1108)  | [Search A 2d Matrix II](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1108) |
+| 4                | [合并两个有序数组](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1109) | [Merge Sorted Array](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1109)    |
+| 5                | [鸡蛋掉落](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1110)         | [Super Egg Drop](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1110)        |
 ### ByteDance
 #### String
 #### Linked List And Tree
