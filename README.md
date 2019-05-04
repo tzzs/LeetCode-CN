@@ -42,11 +42,11 @@
 #### Before You Start
 | #    | 题名                                                         | NAME                                                         |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1    | [只出现一次的数字](./CARD/top-interview-questions-in-2018/261/before-you-start/1106) | [Single Number](./CARD/top-interview-questions-in-2018/261/before-you-start/1106) |
-| 2    | [求众数](./CARD/top-interview-questions-in-2018/261/before-you-start/1107) | [Majorty Element](./CARD/top-interview-questions-in-2018/261/before-you-start/1107) |
-| 3    | [搜索二位矩阵 II](./CARD/top-interview-questions-in-2018/261/before-you-start/1108) | [Search A 2d Matrix II](./CARD/top-interview-questions-in-2018/261/before-you-start/1108) |
-| 4    | [合并两个有序数组](./CARD/top-interview-questions-in-2018/261/before-you-start/1109) | [Merge Sorted Array](./CARD/top-interview-questions-in-2018/261/before-you-start/1109) |
-| 5    | [鸡蛋掉落](./CARD/top-interview-questions-in-2018/261/before-you-start/1110) | [Super Egg Drop](./CARD/top-interview-questions-in-2018/261/before-you-start/1110) |
+| 1    | [只出现一次的数字](./explore/interview/CARD/top-interview-questions-in-2018/261/before-you-start/1106) | [Single Number](./explore/interview/CARD/top-interview-questions-in-2018/261/before-you-start/1106) |
+| 2    | [求众数](./explore/interview/CARD/top-interview-questions-in-2018/261/before-you-start/1107) | [Majorty Element](./explore/interview/CARD/top-interview-questions-in-2018/261/before-you-start/1107) |
+| 3    | [搜索二位矩阵 II](./explore/interview/CARD/top-interview-questions-in-2018/261/before-you-start/1108) | [Search A 2d Matrix II](./explore/interview/CARD/top-interview-questions-in-2018/261/before-you-start/1108) |
+| 4    | [合并两个有序数组](./explore/interview/CARD/top-interview-questions-in-2018/261/before-you-start/1109) | [Merge Sorted Array](./explore/interview/CARD/top-interview-questions-in-2018/261/before-you-start/1109) |
+| 5    | [鸡蛋掉落](./explore/interview/CARD/top-interview-questions-in-2018/261/before-you-start/1110) | [Super Egg Drop](./explore/interview/CARD/top-interview-questions-in-2018/261/before-you-start/1110) |
 #### String
 | #   | 题名                   | NAME |
 | --- | ---------------------- | ---- |
