@@ -25,28 +25,28 @@
     - [Top InterView Question Hard](#top-interview-question-hard)
 
 ## ALL
-| #    | 题名                                                | Name                                                         | 通过率 | 难度 |
-| ---- | --------------------------------------------------- | ------------------------------------------------------------ | ------ | ---- |
-| 1    | [两数之和](../../tree/master/ALL/2.add-two-numbers) | [Two Sum](../../tree/master/ALL/2.add-two-numbers)           | 43.2%  | 简单 |
-| 2    | [两数相加](../../tree/master/ALL/)                  | [Add Two Numbers](../../tree/master/ALL/)                    | 31.2%  | 中等 |
-| 3    | [无重复字符的最长子串](../../tree/master/ALL/)      | [Longest Substring Without Repeating Characters](../../tree/master/ALL/) | 26.8%  | 中等 |
-| 7    | [整数反转](../../tree/master/ALL/7.reverse-integer) | [Reverse Integer](../../tree/master/ALL/7.reverse-integer)   | 30.5%  | 简单 |
-| 8    | [字符串转换整数(atoi)](../../tree/master/ALL/)      | [Reverse Integer](../../tree/master/ALL/)                    | 16.0%  | 中等 |
-| 9    | [回文数](../../tree/master/ALL/)                    | [Palindrome Number](../../tree/master/ALL/)                  | 54.7%  | 简单 |
-| 7    | [](../../tree/master/ALL/)                          | [](../../tree/master/ALL/)                                   |        |      |
-| 551  | [学生出勤记录](./ALL/551.学生出勤记录I/JAVA.java)   | [Student Attendance Recode I](./ALL/551.学生出勤记录I/JAVA.java) |        | 简单 |
+| #    | 题名                                              | Name                                                         | 通过率 | 难度 |
+| ---- | ------------------------------------------------- | ------------------------------------------------------------ | ------ | ---- |
+| 1    | [两数之和](./ALL/2.add-two-numbers)               | [Two Sum](./ALL/2.add-two-numbers)                           | 43.2%  | 简单 |
+| 2    | [两数相加](./ALL/)                                | [Add Two Numbers](./ALL/)                                    | 31.2%  | 中等 |
+| 3    | [无重复字符的最长子串](./ALL/)                    | [Longest Substring Without Repeating Characters](./ALL/)     | 26.8%  | 中等 |
+| 7    | [整数反转](./ALL/7.reverse-integer)               | [Reverse Integer](./ALL/7.reverse-integer)                   | 30.5%  | 简单 |
+| 8    | [字符串转换整数(atoi)](./ALL/)                    | [Reverse Integer](./ALL/)                                    | 16.0%  | 中等 |
+| 9    | [回文数](./ALL/)                                  | [Palindrome Number](./ALL/)                                  | 54.7%  | 简单 |
+| 7    | [](./ALL/)                                        | [](./ALL/)                                                   |        |      |
+| 551  | [学生出勤记录](./ALL/551.学生出勤记录I/JAVA.java) | [Student Attendance Recode I](./ALL/551.学生出勤记录I/JAVA.java) |        | 简单 |
 
 ## CARD
 
 ### Top Interview Quesitons In 2018
 #### Before You Start
-| #   | 题名                                                                                                                            | NAME                                                                                                                                 |
-| --- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 1   | [只出现一次的数字](../../tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1106)                            | [Single Number](../../tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1106)                                    |
-| 2   | [求众数](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1107)           | [Majorty Element](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1107)       |
-| 3   | [搜索二位矩阵 II](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1108)  | [Search A 2d Matrix II](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1108) |
-| 4   | [合并两个有序数组](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1109) | [Merge Sorted Array](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1109)    |
-| 5   | [鸡蛋掉落](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1110)         | [Super Egg Drop](https://github.com/tzzs/LeetCode/tree/master/CARD/top-interview-questions-in-2018/261/before-you-start/1110)        |
+| #    | 题名                                                         | NAME                                                         |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1    | [只出现一次的数字](./CARD/top-interview-questions-in-2018/261/before-you-start/1106) | [Single Number](./CARD/top-interview-questions-in-2018/261/before-you-start/1106) |
+| 2    | [求众数](./CARD/top-interview-questions-in-2018/261/before-you-start/1107) | [Majorty Element](./CARD/top-interview-questions-in-2018/261/before-you-start/1107) |
+| 3    | [搜索二位矩阵 II](./CARD/top-interview-questions-in-2018/261/before-you-start/1108) | [Search A 2d Matrix II](./CARD/top-interview-questions-in-2018/261/before-you-start/1108) |
+| 4    | [合并两个有序数组](./CARD/top-interview-questions-in-2018/261/before-you-start/1109) | [Merge Sorted Array](./CARD/top-interview-questions-in-2018/261/before-you-start/1109) |
+| 5    | [鸡蛋掉落](./CARD/top-interview-questions-in-2018/261/before-you-start/1110) | [Super Egg Drop](./CARD/top-interview-questions-in-2018/261/before-you-start/1110) |
 #### String
 | #   | 题名                   | NAME |
 | --- | ---------------------- | ---- |
