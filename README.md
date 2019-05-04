@@ -1,12 +1,14 @@
-# LeetCode
+# LeetCode-CN
 [https://leetcode-cn.com/tzzs/](https://leetcode-cn.com/tzzs/)
 
-- [LeetCode](#leetcode)
+- [LeetCode-CN](#leetcode-cn)
   - [ALL](#all)
   - [CARD](#card)
     - [Top Interview Quesitons In 2018](#top-interview-quesitons-in-2018)
-    - [ByteDance](#bytedance)
+      - [Before You Start](#before-you-start)
       - [String](#string)
+    - [ByteDance](#bytedance)
+      - [String](#string-1)
       - [Linked List And Tree](#linked-list-and-tree)
       - [Dynamic Programming Or Greedy](#dynamic-programming-or-greedy)
       - [Data Structure](#data-structure)
