@@ -27,18 +27,17 @@
     - [Top InterView Question Hard](#top-interview-question-hard)
 
 ## ALL
-| #   | 题名                                                       | Name                                                                   | 难度 |
-| --- | ---------------------------------------------------------- | ----------------------------------------------------------------------  | ---- |
-| 1   | [两数之和](./ALL/2.add-two-numbers)                        | [Two Sum](./ALL/2.add-two-numbers)                                     | 简单 |
-| 2   | [两数相加](./ALL/)                                         | [Add Two Numbers](./ALL/)                                               | 中等 |
-| 3   | [无重复字符的最长子串](./ALL/)                             | [Longest Substring Without Repeating Characters](./ALL/)                | 中等 |
-| 7   | [整数反转](./ALL/7.reverse-integer)                        | [Reverse Integer](./ALL/7.reverse-integer)                              | 简单 |
-| 8   | [字符串转换整数(atoi)](./ALL/)                             | [Reverse Integer](./ALL/)                                               | 中等 |
-| 9   | [回文数](./ALL/)                                           | [Palindrome Number](./ALL/)                                             | 简单 |
-| 7   | [](./ALL/)                                                 | [](./ALL/)                                                             |      |
-| 551 | [学生出勤记录](./ALL/551.学生出勤记录I/JAVA.java)          | [Student Attendance Recode I](./ALL/551.学生出勤记录I/JAVA.java)       | 简单 |
-| 559 | [N叉树的最大深度](./ALL/559.maximum-depth-of-n-ary-tree) | [Maximum Depth of N-ary Tree](./ALL/559.maximum-depth-of-n-ary-tree) | 简单|
-|946 | [验证栈序列](./ALL/946.验证栈序列)|[Validate Stack Sequences](./ALL/946.验证栈序列)|中等|
+| #   | 题名                                                     | Name                                                                 | 难度 |
+| --- | -------------------------------------------------------- | -------------------------------------------------------------------- | ---- |
+| 1   | [两数之和](./ALL/)                                       | [Two Sum](./ALL/)                                                    | 简单 |
+| 2   | [两数相加](./ALL/2.add-two-numbers)                      | [Add Two Numbers](./ALL/2.add-two-numbers)                           | 中等 |
+| 3   | [无重复字符的最长子串](./ALL/)                           | [Longest Substring Without Repeating Characters](./ALL/)             | 中等 |
+| 7   | [整数反转](./ALL/7.reverse-integer)                      | [Reverse Integer](./ALL/7.reverse-integer)                           | 简单 |
+| 8   | [字符串转换整数(atoi)](./ALL/8.string-to-integer-atoi)   | [Reverse Integer](./ALL/8.string-to-integer-atoi)                    | 中等 |
+| 9   | [回文数](./ALL/9.palindrome-number)                      | [Palindrome Number](./ALL/9.palindrome-numbe)                        | 简单 |
+| 551 | [学生出勤记录](./ALL/551.学生出勤记录I)                  | [Student Attendance Recode I](./ALL/551.学生出勤记录I)               | 简单 |
+| 559 | [N叉树的最大深度](./ALL/559.maximum-depth-of-n-ary-tree) | [Maximum Depth of N-ary Tree](./ALL/559.maximum-depth-of-n-ary-tree) | 简单 |
+| 946 | [验证栈序列](./ALL/946.验证栈序列)                       | [Validate Stack Sequences](./ALL/946.验证栈序列)                     | 中等 |
 
 ## CARD
 
