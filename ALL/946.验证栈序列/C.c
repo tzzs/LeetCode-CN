@@ -27,7 +27,7 @@ bool validateStackSequences(int *pushed, int pushedSize, int *popped, int popped
 /**
  * 使用额外的栈保存栈放入的顺序，同时判断和当前输出栈顶元素是否相同，相同则弹出当前元素
  * 
- * 优化：先判断是否相同，不相同再压栈
+ * 优化：先判断是否相同，不相同再压栈 -> 没有任何提升
  * 
  * [1,2,3,4,5]
  * [4,5,3,2,1]
