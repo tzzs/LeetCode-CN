@@ -37,8 +37,8 @@
 | 9   | [回文数](./ALL/)                                           | [Palindrome Number](./ALL/)                                             | 简单 |
 | 7   | [](./ALL/)                                                 | [](./ALL/)                                                             |      |
 | 551 | [学生出勤记录](./ALL/551.学生出勤记录I/JAVA.java)          | [Student Attendance Recode I](./ALL/551.学生出勤记录I/JAVA.java)       | 简单 |
-| 559 | [N叉树的最大深度](.\\ALL\\559.maximum-depth-of-n-ary-tree) | [Maximum Depth of N-ary Tree](.\\ALL\\559.maximum-depth-of-n-ary-tree) | 简单|
-|946 | [验证栈序列](.\\ALL\\946.验证栈序列)|[Validate Stack Sequences](.\\ALL\\946.验证栈序列)|中等|
+| 559 | [N叉树的最大深度](./ALL/559.maximum-depth-of-n-ary-tree) | [Maximum Depth of N-ary Tree](./ALL/559.maximum-depth-of-n-ary-tree) | 简单|
+|946 | [验证栈序列](./ALL/946.验证栈序列)|[Validate Stack Sequences](./ALL/946.验证栈序列)|中等|
 
 ## CARD
 
