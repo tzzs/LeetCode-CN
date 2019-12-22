@@ -64,6 +64,9 @@
 | 9   | 反转字符串             |      |
 ### ByteDance
 #### String
+| #   | 题名                                                                                        | NAME                                                                           |
+| --- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| 1   | [Excel表列序号](./explore/interview/card/top-interview-questions-in-2018/268/hash-map/1162) | [](./explore/interview/card/top-interview-questions-in-2018/268/hash-map/1162) |
 #### Linked List And Tree
 #### Dynamic Programming Or Greedy
 #### Data Structure
