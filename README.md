@@ -5,8 +5,24 @@
   - [ALL](#all)
   - [CARD](#card)
     - [Top Interview Quesitons In 2018](#top-interview-quesitons-in-2018)
+      - [Before You Start](#before-you-start)
+      - [String](#string)
     - [ByteDance](#bytedance)
+      - [String](#string-1)
+      - [Linked List And Tree](#linked-list-and-tree)
+      - [Dynamic Programming Or Greedy](#dynamic-programming-or-greedy)
+      - [Data Structure](#data-structure)
+      - [Bonus](#bonus)
     - [Top InterView Question Easy](#top-interview-question-easy)
+      - [Array](#array)
+      - [Strings](#strings)
+      - [Linked List](#linked-list)
+      - [Trees](#trees)
+      - [Sorting And Searching](#sorting-and-searching)
+      - [Dynamic Programming](#dynamic-programming)
+      - [Design](#design)
+      - [Math](#math)
+      - [Others](#others)
     - [Top InterView Question Medium](#top-interview-question-medium)
     - [Top InterView Question Hard](#top-interview-question-hard)
 
@@ -19,6 +35,7 @@
 | 7   | [整数反转](./ALL/7.reverse-integer)                      | [Reverse Integer](./ALL/7.reverse-integer)                           | 简单 |
 | 8   | [字符串转换整数(atoi)](./ALL/8.string-to-integer-atoi)   | [Reverse Integer](./ALL/8.string-to-integer-atoi)                    | 中等 |
 | 9   | [回文数](./ALL/9.palindrome-number)                      | [Palindrome Number](./ALL/9.palindrome-numbe)                        | 简单 |
+| 289 | [生命游戏](./ALL/289.game-of-life)                       | [Game Of Life](./ALL/289.game-of-life)                               | 中等 |
 | 551 | [学生出勤记录](./ALL/551.学生出勤记录I)                  | [Student Attendance Recode I](./ALL/551.学生出勤记录I)               | 简单 |
 | 559 | [N叉树的最大深度](./ALL/559.maximum-depth-of-n-ary-tree) | [Maximum Depth of N-ary Tree](./ALL/559.maximum-depth-of-n-ary-tree) | 简单 |
 | 946 | [验证栈序列](./ALL/946.验证栈序列)                       | [Validate Stack Sequences](./ALL/946.验证栈序列)                     | 中等 |
