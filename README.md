@@ -42,7 +42,6 @@
 | 946 | [验证栈序列](./ALL/946.验证栈序列)                                                     | [Validate Stack Sequences](./ALL/946.验证栈序列)                                                                          | 中等 |
 
 ## CARD
-
 ### Top Interview Quesitons In 2018
 #### Before You Start
 | #   | 题名                                                                                                   | NAME                                                                                                        |
