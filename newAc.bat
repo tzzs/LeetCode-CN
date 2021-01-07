@@ -2,12 +2,29 @@
 cd all
 @REM dir
 
-@REM get param
-set /p id=è¯·è¾“å…¥è‹±æ–‡é¢˜ç›®(id.english_name):
-md %id%
+@REM get id
+set /p id=ÇëÊäÈëID: 
 
-cd %id%
-set /p lan=è¯·è¾“å…¥ACè¯­è¨€:
+@REM get chinese name
+set /p chinese_name=ÇëÊäÈëÖĞÎÄÌâÄ¿(chinese_name): 
+
+@REM get english_name
+set /p english_name=ÇëÊäÈëÓ¢ÎÄÌâÄ¿(english_name): 
+
+set floder=%id%.%english_name%
+
+md %floder%
+
+cd %floder%
+
+set /p lan=ÇëÊäÈëACÓïÑÔ: 
 echo=> Solution.%lan%
 
-@REM ç”Ÿæˆmarkdownå†…å®¹
+
+@REM Éú³ÉmarkdownÄÚÈİ
+echo | %id% | [%chinese_name%](./all/%floder%) | [%english_name%](./all/%floder%) |  | %lan% |
+
+
+@REM Éú³ÉcommitÄÚÈİ
+
+echo "%id% %chinese_name% use %lan% "
