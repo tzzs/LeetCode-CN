@@ -91,6 +91,10 @@
 
 #### Array
 
+| #   | 题名                                                                                | NAME                                                          | 编程语言 |
+| --- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------- | -------- |
+|     | [删除排序数组中的重复项](./leetbook/read/top-interview-questions-easy/array/x2gy9m) | [](./leetbook/read/top-interview-questions-easy/array/x2gy9m) | Java     |
+
 #### Strings
 
 #### Linked List
