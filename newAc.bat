@@ -22,7 +22,7 @@ echo=> Solution.%lan%
 
 
 @REM 生成markdown内容
-echo | %id% | [%chinese_name%](./all/%floder%) | [%english_name%](./all/%floder%) |  | %lan% |
+echo "| %id% | [%chinese_name%](./all/%floder%) | [%english_name%](./all/%floder%) |  | %lan% |"
 
 
 @REM 生成commit内容
