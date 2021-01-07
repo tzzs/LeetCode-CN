@@ -17,15 +17,16 @@ md %floder%
 
 cd %floder%
 
-set /p lan=请输入AC语言: 
+set /p LAN=请输入AC语言: 
 
+set LAN_LOWER=%LAN%
 
 @REM str to lower
 
-for %%i in (a b c d e f g h i j k l m n o p q r s t u v w x y z) do call set LAN_LOWER=%%lan:%%i=%%i%%
+for %%i in (a b c d e f g h i j k l m n o p q r s t u v w x y z) do call set LAN_LOWER=%%LAN_LOWER:%%i=%%i%%
+
 
 echo=> Solution.%LAN_LOWER%
-
 
 
 @REM 生成markdown内容
