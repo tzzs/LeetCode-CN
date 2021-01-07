@@ -16,7 +16,7 @@
 ## ALL
 
 | #    | 题名                                                                                   | Name                                                                                                                      | 难度 | 编程语言 |
-| ---- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ---- | -------- | ---- |
+| ---- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ---- | -------- |
 | 1    | [两数之和](./all/)                                                                     | [Two Sum](./all/)                                                                                                         | 简单 |          |
 | 2    | [两数相加](./all/2.add-two-numbers)                                                    | [Add Two Numbers](./all/2.add-two-numbers)                                                                                | 中等 |          |
 | 3    | [无重复字符的最长子串](./all/)                                                         | [Longest Substring Without Repeating Characters](./all/)                                                                  | 中等 |          |
@@ -31,7 +31,7 @@
 | 551  | [学生出勤记录](./all/551.学生出勤记录I)                                                | [Student Attendance Recode I](./all/551.学生出勤记录I)                                                                    | 简单 |          |
 | 559  | [N 叉树的最大深度](./all/559.maximum-depth-of-n-ary-tree)                              | [Maximum Depth of N-ary Tree](./all/559.maximum-depth-of-n-ary-tree)                                                      | 简单 |          |
 | 946  | [验证栈序列](./all/946.验证栈序列)                                                     | [Validate Stack Sequences](./all/946.验证栈序列)                                                                          | 中等 |          |
-| 1710 | [卡车上的最大单元数](./all/1710.maximum-units-on-a-truck)                              | [Maximmum Units On A Truck](./all/1710.maximum-units-on-a-truck)                                                          | 简单 |          | JAVA |
+| 1710 | [卡车上的最大单元数](./all/1710.maximum-units-on-a-truck)                              | [Maximmum Units On A Truck](./all/1710.maximum-units-on-a-truck)                                                          | 简单 | JAVA     |
 
 ## ProblemSet
 
