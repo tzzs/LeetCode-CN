@@ -5,6 +5,9 @@ cd all
 @REM get id
 set /p id=请输入ID: 
 
+Set "id=0000%id%"
+Set "id=%id:~-4,4%"
+
 @REM get chinese name
 set /p chinese_name=请输入中文题目(chinese_name): 
 
