@@ -41,6 +41,7 @@
 | 0946   | [验证栈序列](./all/0946.验证栈序列)                                                     | [Validate Stack Sequences](./all/0946.验证栈序列)                                                                          | 中等 |                            |
 | 1710   | [卡车上的最大单元数](./all/1710.maximum-units-on-a-truck)                               | [Maximmum Units On A Truck](./all/1710.maximum-units-on-a-truck)                                                           | 简单 | Java                       |
 | 5649   | [解码异或后的数组](./all/5649.decode-xored-array)                                       | [decode-xored-array](./all/5649.decode-xored-array)                                                                        | 简单 | Java                       |
+| 5652   | [交换链表中的节点](./all/5652.swapping-nodes-in-a-linked-list)                          | [swapping-nodes-in-a-linked-list](./all/5652.swapping-nodes-in-a-linked-list)                                              | 中等 | Java                       |
 | lcof03 | [数组中重复的数字](./all/lcof03.shu-zu-zhong-zhong-fu-de-shu-zi-lcof)                   | [shu-zu-zhong-zhong-fu-de-shu-zi-lcof](./all/lcof03.shu-zu-zhong-zhong-fu-de-shu-zi-lcof)                                  |      | Java(1-HashSet\2-原地置换) |
 
 ## ProblemSet
