@@ -51,6 +51,7 @@
 | 5649   | [解码异或后的数组](./all/5649.decode-xored-array)                                       | [decode-xored-array](./all/5649.decode-xored-array)                                                                        | 简单 | Java                       |
 | 5652   | [交换链表中的节点](./all/5652.swapping-nodes-in-a-linked-list)                          | [swapping-nodes-in-a-linked-list](./all/5652.swapping-nodes-in-a-linked-list)                                              | 中等 | Java                       |
 | lcof03 | [数组中重复的数字](./all/lcof03.shu-zu-zhong-zhong-fu-de-shu-zi-lcof)                   | [shu-zu-zhong-zhong-fu-de-shu-zi-lcof](./all/lcof03.shu-zu-zhong-zhong-fu-de-shu-zi-lcof)                                  |      | Java(1-HashSet\2-原地置换) |
+| 8-II   | [左旋转字符串](./all/lcof58-II.zuo-xuan-zhuan-zi-fu-chuan-lcof)                         | [zuo-xuan-zhuan-zi-fu-chuan-lcof](./all/lcof58-II.zuo-xuan-zhuan-zi-fu-chuan-lcof)                                         | 简单 | Java                       |
 
 ## ProblemSet
 
