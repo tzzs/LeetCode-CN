@@ -21,5 +21,6 @@ if __name__ == '__main__':
         file = open(path + '/' + file_name, 'w')
         file.close()
 
-    print('|' + num + '| [' + chinese_name + '](./all/' + file_name + ') | [' + englist_name + '](./all/' + file_name + ') | | ' + lan + ' |')
+    print('|' + num + '| [' + chinese_name + '](./all/' + num + '.' + englist_name +
+          ') | [' + englist_name + '](./all/' + num + '.' + englist_name + ') | | ' + lan + ' |')
     print('✔ ' + chinese_name + ' AC use ' + lan)
