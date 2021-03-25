@@ -23,4 +23,4 @@ if __name__ == '__main__':
 
     print('|' + num + '| [' + chinese_name + '](./all/' + num + '.' + englist_name +
           ') | [' + englist_name + '](./all/' + num + '.' + englist_name + ') | | ' + lan + ' |')
-    print('✔ ' + chinese_name + ' AC use ' + lan)
+    print('✔ ' + num + ' ' + chinese_name + ' AC use ' + lan)
