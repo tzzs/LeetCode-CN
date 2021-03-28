@@ -10,6 +10,7 @@ if __name__ == '__main__':
     englist_name = input('请输入英文题目(english_name):')
     lan = input('请输入AC语言:')
     lan = lan.lower()
+    difficulty = input('请输入难度:')
 
     path = os.getcwd() + '/all/' + num + '.' + englist_name
     file_name = 'Solution.' + lan
@@ -22,5 +23,5 @@ if __name__ == '__main__':
         file.close()
 
     print('|' + num + '| [' + chinese_name + '](./all/' + num + '.' + englist_name +
-          ') | [' + englist_name + '](./all/' + num + '.' + englist_name + ') | | ' + lan + ' |')
+          ') | [' + englist_name + '](./all/' + num + '.' + englist_name + ') | ' + difficulty + ' | ' + lan + ' |')
     print('✔ ' + num + ' ' + chinese_name + ' AC use ' + lan)

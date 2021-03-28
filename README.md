@@ -5,6 +5,7 @@
 - [LeetCode-CN](#leetcode-cn)
   - [ALL](#all)
   - [ProblemSet](#problemset)
+    - [剑指 Offer](#剑指-offer)
     - [2020-03](#2020-03)
   - [CARD](#card)
     - [Top Interview Quesitons In 2018](#top-interview-quesitons-in-2018)
@@ -72,6 +73,24 @@
 | lcp06     | [拿硬币](./all/lcp06.na-ying-bi)                                                        | [na-ying-bi](./all/lcp06.na-ying-bi)                                                                                       | 简单 | Java                       |
 
 ## ProblemSet
+
+### 剑指 Offer
+
+| #         | 题名                                                                               | Name                                                                                                      | 难度 | 编程语言                   |
+| --------- | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ---- | -------------------------- |
+| lcof03    | [数组中重复的数字](./all/lcof03.shu-zu-zhong-zhong-fu-de-shu-zi-lcof)              | [shu-zu-zhong-zhong-fu-de-shu-zi-lcof](./all/lcof03.shu-zu-zhong-zhong-fu-de-shu-zi-lcof)                 |      | Java(1-HashSet\2-原地置换) |
+| lcof05    | [替换空格](./all/lcof05.ti-huan-kong-ge-lcof)                                      | [ti-huan-kong-ge-lcof](./all/lcof05.ti-huan-kong-ge-lcof)                                                 |      | java                       |
+| lcof06    | [从尾到头打印链表](./all/lcof06.cong-wei-dao-tou-da-yin-lian-biao-lcof)            | [cong-wei-dao-tou-da-yin-lian-biao-lcof](./all/lcof06.cong-wei-dao-tou-da-yin-lian-biao-lcof)             |      | java                       |
+| lcof09    | [用两个栈实现队列](./all/lcof09.yong-liang-ge-zhan-shi-xian-dui-lie-lcof)          | [yong-liang-ge-zhan-shi-xian-dui-lie-lcof](./all/lcof09.yong-liang-ge-zhan-shi-xian-dui-lie-lcof)         |      | java                       |
+| lcof10-I  | [斐波那契数列](./all/lcof10-I.fei-bo-na-qi-shu-lie-lcof)                           | [fei-bo-na-qi-shu-lie-lcof](./all/lcof10-I.fei-bo-na-qi-shu-lie-lcof)                                     |      | java                       |
+| lcof10-II | [青蛙跳台阶问题](./all/lcof10-II.qing-wa-tiao-tai-jie-wen-ti-lcof)                 | [qing-wa-tiao-tai-jie-wen-ti-lcof](./all/lcof10-II.qing-wa-tiao-tai-jie-wen-ti-lcof)                      |      | java                       |
+| lcof11    | [旋转数组的最小数字](./all/lcof11.xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof)       | [xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof](./all/lcof11.xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof)       |      | java                       |
+| lcof15    | [二进制中 1 的个数](./all/lcof15.er-jin-zhi-zhong-1de-ge-shu-lcof)                 | [er-jin-zhi-zhong-1de-ge-shu-lcof](./all/lcof15.er-jin-zhi-zhong-1de-ge-shu-lcof)                         |      | java                       |
+| lcof17    | [打印从 1 到最大的 n 位数](./all/lcof17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof)  | [da-yin-cong-1dao-zui-da-de-nwei-shu-lcof](./all/lcof17.da-yin-cong-1dao-zui-da-de-nwei-shu-lcof)         |      | java                       |
+| lcof18    | [删除链表的节点](./all/lcof18.shan-chu-lian-biao-de-jie-dian-lcof)                 | [shan-chu-lian-biao-de-jie-dian-lcof](./all/lcof18.shan-chu-lian-biao-de-jie-dian-lcof)                   |      | java                       |
+| lcof22    | [链表中倒数第 k 个节点](./all/lcof22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) | [lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof](./all/lcof22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) |      | java                       |
+| lcof24    | [反转链表](./all/lcof24.fan-zhuan-lian-biao-lcof)                                  | [fan-zhuan-lian-biao-lcof](./all/lcof24.fan-zhuan-lian-biao-lcof)                                         |      | java                       |
+| lcof55    | [I. 二叉树的深度](./all/lcof55.er-cha-shu-de-shen-du-lcof)                         | [er-cha-shu-de-shen-du-lcof](./all/lcof55.er-cha-shu-de-shen-du-lcof)                                     |      | java                       |
 
 ### 2020-03
 
