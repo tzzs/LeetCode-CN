@@ -68,6 +68,7 @@
 | lcof18    | [删除链表的节点](./all/lcof18.shan-chu-lian-biao-de-jie-dian-lcof)                      | [shan-chu-lian-biao-de-jie-dian-lcof](./all/lcof18.shan-chu-lian-biao-de-jie-dian-lcof)                                    |      | java                       |
 | lcof22    | [链表中倒数第 k 个节点](./all/lcof22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)      | [lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof](./all/lcof22.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)                  |      | java                       |
 | lcof24    | [反转链表](./all/lcof24.fan-zhuan-lian-biao-lcof)                                       | [fan-zhuan-lian-biao-lcof](./all/lcof24.fan-zhuan-lian-biao-lcof)                                                          |      | java                       |
+| lcof25    | [合并两个排序的链表](./all/lcof25.he-bing-liang-ge-pai-xu-de-lian-biao-lcof)            | [he-bing-liang-ge-pai-xu-de-lian-biao-lcof](./all/lcof25.he-bing-liang-ge-pai-xu-de-lian-biao-lcof)                        | 简单 | java                       |
 | lcof55    | [I. 二叉树的深度](./all/lcof55.er-cha-shu-de-shen-du-lcof)                              | [er-cha-shu-de-shen-du-lcof](./all/lcof55.er-cha-shu-de-shen-du-lcof)                                                      |      | java                       |
 | 8-II      | [左旋转字符串](./all/lcof58-II.zuo-xuan-zhuan-zi-fu-chuan-lcof)                         | [zuo-xuan-zhuan-zi-fu-chuan-lcof](./all/lcof58-II.zuo-xuan-zhuan-zi-fu-chuan-lcof)                                         | 简单 | Java                       |
 | lcp06     | [拿硬币](./all/lcp06.na-ying-bi)                                                        | [na-ying-bi](./all/lcp06.na-ying-bi)                                                                                       | 简单 | Java                       |
@@ -155,9 +156,9 @@
 
 #### Linked List
 
-| #    | 题名                                                         | NAME | 编程语言 |
-| ---- | ------------------------------------------------------------ | ---- | -------- |
-| 3    | [反转链表](./card/top-interview-questions-easy/Linked List/fan-zhuan-lian-biao) |      | Java     |
+| #   | 题名                                                                            | NAME | 编程语言 |
+| --- | ------------------------------------------------------------------------------- | ---- | -------- |
+| 3   | [反转链表](./card/top-interview-questions-easy/Linked List/fan-zhuan-lian-biao) |      | Java     |
 
 #### Trees
 
