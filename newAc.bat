@@ -5,14 +5,15 @@ cd all
 @REM get id
 set /p a=请输入ID: 
 
+set id=%a%
 set /a b=^%a%*1
+setlocal EnableDelayedExpansion
 if %b% equ %a% (
-    Set "a=0000%a%"
-    Set "a=%a:~-4,4%
+    Set "id=0000!id!"
+    Set "id=!id:~-4,4!"
 )
 
-@REM Set "id=0000%id%"
-@REM Set "id=%id:~-4,4%"
+set a=!id!
 
 @REM get chinese name
 set /p chinese_name=请输入中文题目(chinese_name): 
