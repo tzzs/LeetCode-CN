@@ -13,6 +13,10 @@
     - [Top InterView Question Easy](#top-interview-question-easy)
     - [Top InterView Question Medium](#top-interview-question-medium)
     - [Top InterView Question Hard](#top-interview-question-hard)
+- [Study Plan](#study-plan)
+  - [Dynamic Programming 动态规划](#dynamic-programming-动态规划)
+    - [Day 1](#day-1)
+    - [Day 2](#day-2)
 
 ## ALL
 
@@ -29,7 +33,7 @@
 | 0036           | [有效的数组](./all/0036.valid-sudoku)                                                   | [valid-sudoku](./all/0036.valid-sudoku)                                                                                    | 中等 | Java                       |
 | 0038           | [外观数列](./all/0038.count-and-say)                                                    | [count-and-say](./all/0038.count-and-say)                                                                                  | 简单 | Java                       |
 | 0042           | [接雨水](./all/0042.trapping-rain-water)                                                | [Trapping Rain Water](./all/0042.trapping-rain-water)                                                                      | 困难 | C                          |
-| 0070           | [爬楼梯](./all/0070.climbing-stairs)                                                    | [climbing-stairs](./all/0070.climbing-stairs)                                                                              |      | Java                       |
+| 0070           | [爬楼梯](./all/0070.climbing-stairs)                                                    | [climbing-stairs](./all/0070.climbing-stairs)                                                                              | 简单 | Java                       |
 | 0111           | [有效括号的嵌套深度](./all/0111.maximum-nesting-depth-of-two-valid-parentheses-strings) | [Maximum Nesting Depth Of Two Valid Parentheses String](./all/0111.maximum-nesting-depth-of-two-valid-parentheses-strings) | 中等 |                            |
 | 0121           | [买卖股票的最佳时机](./problemset/2020-03/0121.best-time-to-buy-and-sell-stock)         | [Best Time To Buy And Sell Stock](./problemset/2020-03/0121.best-time-to-buy-and-sell-stock)                               | 简单 | Java                       |
 | 0122           | [买卖股票的最佳时机 II](./all/0122.best-time-to-buy-and-sell-stock-ii)                  | [Best Time To Buy And Sell Stock II](./all/0122.best-time-to-buy-and-sell-stock-ii)                                        | 简单 | Java                       |
@@ -179,3 +183,20 @@
 ### Top InterView Question Medium
 
 ### Top InterView Question Hard
+
+# Study Plan
+
+## Dynamic Programming 动态规划
+
+### Day 1
+
+| #    | 题目                                                   | NAME                                                        | 难度 | 编程语言 |
+| ---- | ------------------------------------------------------ | ----------------------------------------------------------- | ---- | -------- |
+| 0509 | [斐波那契数](./all/0509.fibonacci-number)              | [fibonacci-number](./all/0509.fibonacci-number)             | 简单 | Java     |
+| 1137 | [第 N 个泰波那契数](./all/1137.n-th-tribonacci-number) | [n-th-tribonacci-number](./all/1137.n-th-tribonacci-number) | 简单 | java     |
+
+### Day 2
+
+| #    | 题目                                 | NAME                                          | 难度 | 编程语言 |
+| ---- | ------------------------------------ | --------------------------------------------- | ---- | -------- |
+| 0070 | [爬楼梯](./all/0070.climbing-stairs) | [climbing-stairs](./all/0070.climbing-stairs) | 简单 | Java     |
