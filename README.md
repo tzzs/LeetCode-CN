@@ -17,6 +17,7 @@
   - [Dynamic Programming 动态规划](#dynamic-programming-动态规划)
     - [Day 1](#day-1)
     - [Day 2](#day-2)
+    - [Day 3](#day-3)
 
 ## ALL
 
@@ -198,6 +199,13 @@
 
 ### Day 2
 
-| #    | 题目                                 | NAME                                          | 难度 | 编程语言 |
-| ---- | ------------------------------------ | --------------------------------------------- | ---- | -------- |
-| 0070 | [爬楼梯](./all/0070.climbing-stairs) | [climbing-stairs](./all/0070.climbing-stairs) | 简单 | Java     |
+| #     | 题目                                                      | NAME                                                            | 难度 | 编程语言 |
+| ----- | --------------------------------------------------------- | --------------------------------------------------------------- | ---- | -------- |
+| 0070  | [爬楼梯](./all/0070.climbing-stairs)                      | [climbing-stairs](./all/0070.climbing-stairs)                   | 简单 | Java     |
+| 00746 | [使用最小花费爬楼梯](./all/0746.min-cost-climbing-stairs) | [min-cost-climbing-stairs](./all/0746.min-cost-climbing-stairs) | 简单 | java     |
+
+### Day 3
+
+| #    | 题目                                | NAME                                    | 难度 | 编程语言 |
+| ---- | ----------------------------------- | --------------------------------------- | ---- | -------- |
+| 0198 | [打家劫舍](./all/0198.house-robber) | [house-robber](./all/0198.house-robber) | 简单 | Java     |
