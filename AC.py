@@ -44,7 +44,7 @@ if __name__ == '__main__':
     commit_msg = '✔ ' + num + ' ' + chinese_name + ' AC use ' + lan
     print(commit_msg)
 
-    with open("README.md", "w+", encoding='utf-8') as f:
+    with open("README.md", "r", encoding='utf-8') as f:
         content = f.readlines()
 
         for i, line in enumerate(content):
@@ -52,13 +52,15 @@ if __name__ == '__main__':
                 cur = line.split('|')[1].strip()
                 if cur.isnumeric():
                     cur = int(cur)
-                    if cur > num:
+                    if cur > int(num):
                         content.insert(i, readme_txt + '\n')
                         break
 
+    with open("README.md", "w", encoding='utf-8') as f:
         f.writelines(content)
 
     os.system('pause')
     os.system('git add ' + dir_path)
+    os.system('git add README.md')
     os.system('git commit -m "' + commit_msg + '"')
     os.system('git push')
