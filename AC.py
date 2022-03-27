@@ -1,3 +1,9 @@
+"""
+leetcode ac script
+
+desc:
+
+"""
 import os
 
 
@@ -13,7 +19,14 @@ if __name__ == '__main__':
     difficulty = input('请输入难度:')
 
     path = os.getcwd() + '/all/' + num + '.' + englist_name
-    file_name = 'Solution.' + lan
+
+    if lan == 'c++':
+        FILE_TYPE = 'cpp'
+    elif lan == 'python':
+        FILE_TYPE = 'py'
+    else:
+        FILE_TYPE = lan
+    file_name = 'Solution.' + FILE_TYPE
 
     if not os.path.exists(path):
         os.makedirs(path)
@@ -22,6 +35,30 @@ if __name__ == '__main__':
         file = open(path + '/' + file_name, 'w')
         file.close()
 
-    print('|' + num + '| [' + chinese_name + '](./all/' + num + '.' + englist_name +
-          ') | [' + englist_name + '](./all/' + num + '.' + englist_name + ') | ' + difficulty + ' | ' + lan + ' |')
-    print('✔ ' + num + ' ' + chinese_name + ' AC use ' + lan)
+    dir_path = './all/' + num + '.' + englist_name
+    readme_txt = '|' + num + '| [' + chinese_name + '](./all/' + num + '.' + englist_name + ') | [' + \
+        englist_name + '](./all/' + num + '.' + englist_name + \
+        ') | ' + difficulty + ' | ' + lan + ' |'
+    print(readme_txt)
+
+    commit_msg = '✔ ' + num + ' ' + chinese_name + ' AC use ' + lan
+    print(commit_msg)
+
+    with open("README.md", "w+", encoding='utf-8') as f:
+        content = f.readlines()
+
+        for i, line in enumerate(content):
+            if line.startswith('|'):
+                cur = line.split('|')[1].strip()
+                if cur.isnumeric():
+                    cur = int(cur)
+                    if cur > num:
+                        content.insert(i, readme_txt + '\n')
+                        break
+
+        f.writelines(content)
+
+    os.system('pause')
+    os.system('git add ' + dir_path)
+    os.system('git commit -m "' + commit_msg + '"')
+    os.system('git push')
