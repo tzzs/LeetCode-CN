@@ -36,7 +36,7 @@ if __name__ == '__main__':
         file = open(path + '/' + file_name, 'w')
         file.close()
     else:
-        file = open(path + '/' + 'Solution' +
+        file = open(path + '/' + 'Solution_' +
                     strftime("%Y-%m-%d-%H-%M-%S", gmtime())+'.' + FILE_TYPE, 'w')
         file.close()
 
