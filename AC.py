@@ -17,7 +17,16 @@ if __name__ == '__main__':
     englist_name = input('请输入英文题目(english_name):')
     lan = input('请输入AC语言:')
     lan = lan.lower()
-    difficulty = input('请输入难度:')
+    DIFFICULTY = input('请输入难度:')
+
+    if DIFFICULTY == '简单':
+        DIFFICULTY = 'easy'
+    elif DIFFICULTY == '中等':
+        DIFFICULTY = 'medium'
+    elif DIFFICULTY == '困难':
+        DIFFICULTY = 'hard'
+
+    DIFFICULTY = DIFFICULTY.lower()
 
     path = os.getcwd() + '/all/' + num + '.' + englist_name
 
@@ -41,9 +50,9 @@ if __name__ == '__main__':
         file.close()
 
     dir_path = './all/' + num + '.' + englist_name
-    readme_txt = '|' + num + '| [' + chinese_name + '](./all/' + num + '.' + englist_name + ') | [' + \
-        englist_name + '](./all/' + num + '.' + englist_name + \
-        ') | ' + difficulty + ' | ' + lan + ' |'
+    readme_txt = '|' + num + '| [' + chinese_name + '](./all/' + num + '.' + englist_name + \
+        ') | [' + englist_name + '](./all/' + num + '.' + englist_name + \
+        ') | ' + DIFFICULTY + ' | ' + lan + ' |'
     print(readme_txt)
 
     commit_msg = '✔ ' + num + ' ' + chinese_name + ' AC use ' + lan
@@ -52,14 +61,17 @@ if __name__ == '__main__':
     with open("README.md", "r", encoding='utf-8') as f:
         content = f.readlines()
 
-        for i, line in enumerate(content):
-            if line.startswith('|'):
-                cur = line.split('|')[1].strip()
-                if cur.isnumeric():
-                    cur = int(cur)
-                    if cur > int(num):
-                        content.insert(i, readme_txt + '\n')
-                        break
+        if num.isnumeric():
+            for i, line in enumerate(content):
+                if line.startswith('|'):
+                    cur = line.split('|')[1].strip()
+                    if cur.isnumeric():
+                        cur = int(cur)
+                        if cur > int(num):
+                            content.insert(i, readme_txt + '\n')
+                            break
+        else:
+            content.insert(len(content) + 1, readme_txt + '\n')
 
     with open("README.md", "w", encoding='utf-8') as f:
         f.writelines(content)
