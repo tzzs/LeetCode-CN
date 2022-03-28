@@ -5,6 +5,7 @@ desc:
 
 """
 import os
+from time import gmtime, strftime
 
 
 if __name__ == '__main__':
@@ -33,6 +34,10 @@ if __name__ == '__main__':
 
     if not os.path.exists(path + '/' + file_name):
         file = open(path + '/' + file_name, 'w')
+        file.close()
+    else:
+        file = open(path + '/' + 'Solution' +
+                    strftime("%Y-%m-%d-%H-%M-%S", gmtime())+'.' + FILE_TYPE, 'w')
         file.close()
 
     dir_path = './all/' + num + '.' + englist_name
