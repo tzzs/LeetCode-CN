@@ -69,6 +69,7 @@
 | 0798           | [得分最高的最小轮调](./all/0798.smallest-rotation-with-highest-score)                                      | [smallest-rotation-with-highest-score](./all/0798.smallest-rotation-with-highest-score)                                       | 困难   | java                       |
 | 0876           | [链表的中间结点](./all/0876.middle-of-the-linked-list)                                                     | [middle-of-the-linked-list](./all/0876.middle-of-the-linked-list)                                                             | Easy   | java                       |
 | 0946           | [验证栈序列](./all/0946.验证栈序列)                                                                        | [Validate Stack Sequences](./all/0946.验证栈序列)                                                                             | 中等   |                            |
+|0954| [二倍数对数组](./all/0954.array-of-doubled-pairs) | [array-of-doubled-pairs](./all/0954.array-of-doubled-pairs) | medium | java |
 | 0997           | [有序数组的平方](./all/0997.squares-of-a-sorted-array)                                                     | [squares-of-a-sorted-array](./all/0997.squares-of-a-sorted-array)                                                             | Easy   | java                       |
 | 1018           | [可被 5 整除的二进制前缀](./all/1018.binary-prefix-divisible-by-5)                                         | [binary-prefix-divisible-by-5](./all/1018.binary-prefix-divisible-by-5)                                                       | 简单   | Java                       |
 | 1137           | [第 N 个泰波那契数](./all/1137.n-th-tribonacci-number)                                                     | [n-th-tribonacci-number](./all/1137.n-th-tribonacci-number)                                                                   | 简单   | java                       |
@@ -234,3 +235,4 @@
 # Other
 
 |lcp28| [采购方案](./all/lcp28.采购方案) | [采购方案](./all/lcp28.采购方案) | Easy | java |
+|lcp29| [乐团站位](./all/lcp29.乐团站位) | [乐团站位](./all/lcp29.乐团站位) | medium | java |
