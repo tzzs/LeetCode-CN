@@ -15,27 +15,34 @@ if __name__ == '__main__':
 
     chinese_name = input('请输入中文题目(chinese_name):')
     englist_name = input('请输入英文题目(english_name):')
-    lan = input('请输入AC语言:')
-    lan = lan.lower()
-    DIFFICULTY = input('请输入难度:')
+    LAN = input('请输入AC语言(default: java):')
+    if LAN.strip() == '':
+        LAN = 'java'
+        print(LAN)
+    else:
+        LAN = LAN.lower()
+    DIFFICULTY = input('请输入难度(default: easy):')
 
-    if DIFFICULTY == '简单' or DIFFICULTY == '1':
+    if DIFFICULTY.strip() == '':
         DIFFICULTY = 'easy'
-    elif DIFFICULTY == '中等' or DIFFICULTY == '2':
-        DIFFICULTY = 'medium'
-    elif DIFFICULTY == '困难' or DIFFICULTY == '3':
-        DIFFICULTY = 'hard'
-
-    DIFFICULTY = DIFFICULTY.lower()
+        print(DIFFICULTY)
+    else:
+        if DIFFICULTY == '简单' or DIFFICULTY == '1':
+            DIFFICULTY = 'easy'
+        elif DIFFICULTY == '中等' or DIFFICULTY == '2':
+            DIFFICULTY = 'medium'
+        elif DIFFICULTY == '困难' or DIFFICULTY == '3':
+            DIFFICULTY = 'hard'
+        DIFFICULTY = DIFFICULTY.lower()
 
     path = os.getcwd() + '/all/' + num + '.' + englist_name
 
-    if lan == 'c++':
+    if LAN == 'c++':
         FILE_TYPE = 'cpp'
-    elif lan == 'python':
+    elif LAN == 'python':
         FILE_TYPE = 'py'
     else:
-        FILE_TYPE = lan
+        FILE_TYPE = LAN
     file_name = 'Solution.' + FILE_TYPE
 
     if not os.path.exists(path):
@@ -55,10 +62,10 @@ if __name__ == '__main__':
     dir_path = './all/' + num + '.' + englist_name
     readme_txt = '|' + num + '| [' + chinese_name + '](./all/' + num + '.' + englist_name + \
         ') | [' + englist_name + '](./all/' + num + '.' + englist_name + \
-        ') | ' + DIFFICULTY + ' | ' + lan + ' |'
+        ') | ' + DIFFICULTY + ' | ' + LAN + ' |'
     print(readme_txt)
 
-    commit_msg = '✔ ' + num + ' ' + chinese_name + ' AC use ' + lan
+    commit_msg = '✔ ' + num + ' ' + chinese_name + ' AC use ' + LAN
     print(commit_msg)
 
     # update problems infomation to README.md
